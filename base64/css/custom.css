@@ -1,0 +1,28 @@
+/**
+ * All your custom CSS should go into this file
+ */
+ 
+ body{
+	margin-top: 120px;
+ }
+ 
+ .center{
+	width: 960px;
+	margin: 0 auto;
+ }
+ 
+ .texto_centrado{
+	text-align: center;
+ }
+ 
+ .col-md-4{
+	padding: 20px 0;
+ }
+ 
+ #userfile{
+	visibility: hidden;
+ }
+ 
+ .control-label{
+	text-align: left;
+ }

@@ -17,7 +17,7 @@ function base64_encode_image ($filename=string) {
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Base64 Converter</title>
+	<title>My Base64 Converter</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 

@@ -28,10 +28,12 @@ def tezz_aws():
     tos = ['8KD1F']
     widgets = []
 
-    BRANCH = "master"
 
-    repo = git.Repo(".")
-    commits = list(repo.iter_commits(BRANCH))
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir)
+    repo = git.Repo(repo_root)
+
+    commits = list(repo.iter_commits('master'))
     
     widgets.append(
         {
@@ -42,8 +44,6 @@ def tezz_aws():
             "sub": "en total"
         }
     )
-
-
 
     upsert_dashboard("test-github-actions", "Estado", tos, widgets)    
 

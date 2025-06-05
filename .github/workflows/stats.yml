@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Tezzela1
 
     steps:
       - name: Checkout Repo
@@ -22,5 +23,5 @@ jobs:
 
       - name: Run Script
         env:
-          API_KEY: ${{ variables.API_KEY }}
+          API_KEY: ${{ vars.API_KEY }}
         run: python ./notificate/stats.py

@@ -47,5 +47,4 @@ def tezz_aws():
 
     upsert_dashboard("test-github-actions", "Estado", tos, widgets)    
 
-
 tezz_aws()

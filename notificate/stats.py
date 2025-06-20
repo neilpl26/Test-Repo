@@ -25,7 +25,7 @@ def upsert_dashboard(  dashboard_id: str, dashboard_title: str, tos: str,  widge
     response = requests.post(f'{BASE_URL}/dashboards/static', headers=HEADERS, json=dashboard)
     
 def tezz_aws():
-    tos = ['8KD1F']
+    tos = ['neilpl26@gmail.com']
     widgets = []
 
 
